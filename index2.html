@@ -33,6 +33,7 @@
 
     section{
       margin-bottom: 30px;
+      text-align: center;
     }
 
     h2{
@@ -47,6 +48,7 @@
 
     ul{
       padding-left: 20px;
+      text-align: left;
     }
 
     .nota{
@@ -55,6 +57,26 @@
       padding: 12px;
       border-radius: 6px;
       margin-top: 10px;
+      text-align: left;
+    }
+
+    /* CUADRO DE IMAGEN */
+    .cuadro-img{
+      width: 140px;
+      height: 140px;
+      background: #ffffff;
+      border: 2px solid #d1d5db;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 15px auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+    }
+
+    .cuadro-img img{
+      max-width: 80%;
+      max-height: 80%;
     }
 
     footer{
@@ -71,6 +93,10 @@
 <header>
   <h1>Impuesto Sobre la Renta (ISR)</h1>
   <p>Conceptos básicos para entender su funcionamiento</p>
+
+  <div class="cuadro-img">
+    <img src="https://cdn-icons-png.flaticon.com/512/2331/2331940.png" alt="Impuestos">
+  </div>
 </header>
 
 <main>
@@ -78,10 +104,14 @@
   <section>
     <h2>¿Qué es el ISR?</h2>
     <h3>Definición general</h3>
+
+    <div class="cuadro-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" alt="Concepto impuestos">
+    </div>
+
     <p>
       El Impuesto Sobre la Renta (ISR) es un impuesto que se aplica a los ingresos
-      obtenidos por personas físicas y morales. Se calcula en función de las
-      ganancias generadas durante un periodo determinado.
+      obtenidos por personas físicas y morales.
     </p>
 
     <div class="nota">
@@ -92,62 +122,32 @@
   <section>
     <h2>¿Quiénes deben pagar ISR?</h2>
     <h3>Contribuyentes comunes</h3>
+
+    <div class="cuadro-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/4149/4149670.png" alt="Personas trabajando">
+    </div>
+
     <ul>
       <li>Trabajadores asalariados.</li>
       <li>Profesionales independientes.</li>
-      <li>Empresarios y comerciantes.</li>
-      <li>Personas que rentan inmuebles.</li>
-      <li>Empresas y sociedades.</li>
+      <li>Empresarios.</li>
+      <li>Arrendadores.</li>
     </ul>
   </section>
 
   <section>
     <h2>¿Cómo se calcula el ISR?</h2>
     <h3>Factores principales</h3>
-    <ul>
-      <li>Total de ingresos obtenidos.</li>
-      <li>Deducciones autorizadas.</li>
-      <li>Tarifas y tablas fiscales vigentes.</li>
-      <li>Subsidios aplicables.</li>
-    </ul>
 
-    <div class="nota">
-      Mientras mayores sean los ingresos, mayor puede ser el porcentaje de ISR.
+    <div class="cuadro-img">
+      <img src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" alt="Cálculo">
     </div>
-  </section>
 
-  <section>
-    <h2>Deducciones comunes</h2>
-    <h3>Gastos que pueden reducir el ISR</h3>
     <ul>
-      <li>Gastos médicos y hospitalarios.</li>
-      <li>Colegiaturas.</li>
-      <li>Intereses de créditos hipotecarios.</li>
-      <li>Aportaciones para el retiro.</li>
-      <li>Donativos autorizados.</li>
+      <li>Ingresos totales.</li>
+      <li>Deducciones.</li>
+      <li>Tablas fiscales.</li>
     </ul>
-  </section>
-
-  <section>
-    <h2>Consejos para cumplir correctamente</h2>
-    <h3>Buenas prácticas fiscales</h3>
-    <ul>
-      <li>Emitir facturas de todos los ingresos.</li>
-      <li>Guardar comprobantes de gastos deducibles.</li>
-      <li>Presentar declaraciones en tiempo.</li>
-      <li>Llevar un control mensual de ingresos y egresos.</li>
-      <li>Consultar a un contador cuando existan dudas.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Conclusión</h2>
-    <h3>Importancia del ISR</h3>
-    <p>
-      El ISR es una contribución fundamental para el funcionamiento del país.
-      Cumplir con esta obligación fiscal evita sanciones y permite una mejor
-      organización financiera personal o empresarial.
-    </p>
   </section>
 
 </main>
